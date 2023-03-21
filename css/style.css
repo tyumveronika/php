@@ -1,0 +1,473 @@
+@font-face {
+font-family: "Montserrat";
+src: url("fonts/Montserrat-Regular.ttf");
+}
+header{
+	padding: 10px;
+	background-color: #056dff;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+}
+.wrapper{
+	position: relative;
+	min-height: 100%;
+}
+main{
+	width: 50%;
+	margin: 0 auto;
+	min-height: 500px;
+}
+.category{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo{
+	padding: 5px;
+}
+.logo img{
+	width: 50px;
+}
+.name{
+	padding: 5px;
+	color: white;
+}
+.logo-name{
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:0 auto;
+}
+.menu-item{
+	padding: 5px;
+}
+div.menu a{
+	text-decoration: none;
+	color: white;
+}
+div.menu a:hover{
+	text-decoration: none;
+	color: red;
+}
+.users{
+    width: 100%;
+    max-width: 1500px;
+    margin:0 auto;
+}
+.products-admin{
+  width: 100%;
+  max-width: 1500px;
+    margin:0 auto;
+}
+.products{
+	width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.product{
+	float: left;
+    width:  33.333333%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-admin{
+  display: flex;
+}
+.text{
+	padding-left: 10px;
+}
+.about{
+  height: 120px;
+}
+.product-name{
+  height: 60px;
+}
+.product img{
+	display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-admin img{
+  display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery img{
+  display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+	 margin-top: 100px;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+	 height: auto;
+	 background-color: grey;
+	 display: flex;
+	 align-items: center;
+	 position: relative;
+}
+.admin-footer{
+  margin-top: 500px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: auto;
+   background-color: grey;
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+.menu-footer {
+	display: flex;
+	margin-left: 500px;
+	margin-right: auto;
+}
+.button-fix{
+	display: flex;
+}
+div.button-fix input {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.button-fix input {
+            margin: 10px;
+            padding: 15px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 190px;
+            border-radius: 10px;
+          }
+
+          div.button-fix input:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+ div.button button {
+ 	background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.button button {
+            margin: 10px;
+            padding: 15px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 190px;
+            border-radius: 10px;
+          }
+
+          div.button button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+ div.product button {
+ 	background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.product button {
+            margin: 10px;
+            padding: 5px 5px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 190px;
+            border-radius: 10px;
+          }
+
+          div.product button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+div.reg button {
+ 	background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.reg button {
+            margin: 10px;
+            padding: 15px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 190px;
+            border-radius: 10px;
+          }
+
+          div.reg button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+input[type=text]{
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+    background-color: #f1f1f1;
+}
+input[type=password]{
+	 width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+    background-color: #f1f1f1;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.client-info span{
+	font-size: 25px;
+	font-weight: bold;
+}
+.history span{
+	margin-left: 10px;
+}
+.table span{
+	margin-left: 50px;
+}
+caption {
+   caption-side: bottom;
+   text-align: right;
+   padding: 10px 0;
+   font-size: 14px;
+}
+.table-cab {
+   width: 900px;
+   border:2px solid;
+}
+.table-admin{
+  width: 1500px;
+   border:2px solid;
+}
+th {
+ width: 100px;  
+}
+th, td {
+   padding: 10px 15px;
+}
+table img{
+	width: 50%;
+}
+.basket-content{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	border-color: black;
+	border-top: 1px solid #e6e6e6;
+}
+.basketItem-content{
+	display: flex;
+
+}
+.basketItem-img-link img{
+	width: 120px;
+}
+.basketItem-link{
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 6px;
+}
+.basketItem-info{
+	margin-left: 20px;
+}
+.basket-buttons{
+	display: flex;
+	align-items: center;
+  padding-left: 10px;
+}
+.basketItem-price{
+	font-size: 26px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 6px;
+    margin-left: 50px;
+    width: 50px;
+}
+
+.basketItem-buttons{
+	margin-left: 50px;
+}
+.basket-info{
+	margin-left: 20px;
+    min-width: 271px;
+    background-color: #eef1f4;
+}
+.basket-info-container{
+	padding-left: 16px;
+	padding-right: 16px;
+	
+}
+.basket-info-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+.basket-info-button-container{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+div.basket-info-button-container button {
+ 	background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.basket-info-button-container button {
+            margin: 10px;
+            padding: 15px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 190px;
+            border-radius: 10px;
+          }
+
+          div.basket-info-button-container button:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+ div.basket-buttons-style input{
+ 	background-color: #daf3f7;
+ }
+         div.basket-buttons input{
+            margin: 10px;
+            padding: 5px 5px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: black;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            width: 50px;
+            border-radius: 10px;
+          }
+
+          div.basket-buttons input:hover{
+            background-position: right center; /* change the direction of the change here */
+            text-decoration: none;
+            background-color: #cbd5d6;
+          }
+div.button input {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+ }
+         div.button input {
+            margin: 10px;
+            padding: 15px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            display: block;
+            border:none;
+            border-radius: 10px;
+          }
+
+          div.button input:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+div.auth a{
+  text-decoration: none;
+  color: black;
+}
+div.auth a:hover{
+  text-decoration: none;
+  color: red;
+}
+div.reg a{
+  text-decoration: none;
+  color: black;
+}
+div.reg a:hover{
+  text-decoration: none;
+  color: red;
+}
+div.menu-footer a{
+  text-decoration: none;
+  color: white;
+}
+div.menu-footer a:hover{
+  text-decoration: none;
+  color: red;
+}
+div.button-file input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+  margin: 10px;
+    background-color: #daf3f7;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.admin-cat{
+  display: flex;
+  justify-content: center;
+}
+div.menu-item input{
+  color: white;
+  border: 0;
+  background: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+div.menu-item input:hover{
+  color: red;
+  border: 0;
+  background: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+}
